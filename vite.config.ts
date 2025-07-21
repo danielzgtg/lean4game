@@ -36,6 +36,7 @@ export default defineConfig({
     exclude: ['games']
   },
   server: {
+    watch: null,
     port: Number(clientPort),
     proxy: {
       '/websocket': {
